@@ -137,7 +137,7 @@ export function App() {
     audio.pause();
     audio.currentTime = 0;
 
-    console.log(newRandomNum)
+    // console.log(newRandomNum)
     setRandomNumber(newRandomNum);
     setRandomNumbers([...randomNumbers, newRandomNum]);
     setAttempts(0)
