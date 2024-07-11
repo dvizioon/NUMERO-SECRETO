@@ -193,7 +193,7 @@ export function App() {
                   className={`w-1/5 h-16 bg-yellow-400 rounded-2xl px-4 py-6 flex items-center justify-center gap-2 ${tipsLeft === 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
                   disabled={true}
                 >
-                  <RotateCcw className="text-white size-10" />
+                  <RotateCcw className="text-white size-10" /> {cooldownEnd}
                 </button>
 
               ) : (
@@ -228,7 +228,6 @@ export function App() {
           {isCorrectNumber ? (
             <div className="w-full h-full flex flex-col items-center justify-end">
               <img src="https://media.tenor.com/N2x4kM8wz9QAAAAj/win-winner.gif" className="w-100p" alt="Vencedor" />
-
             </div>
           ) : (
             <div className="w-full h-full flex flex-col items-center justify-end">
