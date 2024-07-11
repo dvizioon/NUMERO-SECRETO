@@ -193,7 +193,7 @@ export function App() {
                   className={`w-1/5 h-16 bg-yellow-400 rounded-2xl px-4 py-6 flex items-center justify-center gap-2 ${tipsLeft === 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
                   disabled={true}
                 >
-                  <RotateCcw className="text-white size-10" /> {cooldownEnd}
+                  <RotateCcw className="text-white size-10" /> 
                 </button>
 
               ) : (
@@ -235,6 +235,9 @@ export function App() {
             </div>
           )}
         </div>
+        <p style={{display:"none"}}>
+          {cooldownEnd}
+        </p>
       </div>
       <ModalComponent _openModal={isModalOpen} _number={parseInt(number)} _random={randomNumber} onClose={closeModal} />
       <ToastContainer limit={1} />
