@@ -32,8 +32,8 @@
 
 ## Instalação
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
-2. Instale as dependências do front-end: `cd nome-do-repositorio && npm install`
+1. Clone o repositório: `git clone https://github.com/dvizioon/NUMERO-SECRETO`
+2. Instale as dependências do front-end: `cd NUMERO-SECRETO && npm install`
 3. Instale as dependências do back-end: `cd backend && npm install`
 4. Inicie o front-end: `npm start`
 5. Inicie o back-end: `cd backend && npm start`
