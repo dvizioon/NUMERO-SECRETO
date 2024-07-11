@@ -24,6 +24,14 @@ App.use(cors({
     credentials: false
 }));
 
+App.get("/", (req, res) => {
+    res.send(`
+        <p>===================</p>
+        <p>Vizioon-AI - ONLINE 🟢</p>
+        <p>===================</p>
+    `)
+})
+
 App.use(bodyParser.json());
 App.use(routes)
 

@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon",
     "dev": "tsx watch src/server.ts",
-    "watch:build": "tsc --watch"
+     "build": "tsc"
     
   },
   "author": "Daniel Estevão",
