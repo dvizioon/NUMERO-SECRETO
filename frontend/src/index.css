@@ -10,7 +10,7 @@
 }
 
 body {
-    background: linear-gradient(to top, #031731 70%, #0F4587), url('code.png');
+    background: linear-gradient(to top, #031731 70%, #0F4587), url('../public/code.png');
     background-size: auto;
     background-blend-mode: overlay;
     background-position: right;
