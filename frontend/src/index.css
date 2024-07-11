@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top, #031731 70%, #0F4587), url('code.png');
+    background-size: auto;
+    background-blend-mode: overlay;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.img-ruido {
+
+    background-image: url("Ruido.png");
+    background-size: 100% 100%;
+    position: relative;
+
+}
